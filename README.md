@@ -5,18 +5,18 @@ Enables validation for inputs in conjunction with hyper-validator modules.
 ## Usage
 
 This is the base for all the validator modules. It collects the different validator modules and runs the
-validattions at the right time. To install it simply do `npm install hyper-validator-base --save-dev`.
-This will add the validator base in you node_modules folder and insert it as a dependecy in `package.json`.
+validattions at the right time. To install it simply do `npm install hyper-validator-base --save`.
+This will add the validator base in your *node_modules* folder and insert it as a dependecy in *package.json*.
 
-Please remember to load the file in you view, its as simple as adding:
+Remember to load the file in you view, it's as simple as adding:
 
 ```
 <script type="text/javascript" src="node_modules/hyper-validator-base/src/hyper-validator-base.js"></script>
 ```
 
-On slightly bigger projects this might be automated using Gulp or Grunt.
+If you are using Gulp or Grunt this process might be automated.
 
-To initialize it you need to inject `'hyper-input-validator'` as a dependecy in your angular module. Like this:
+To initialize it you need to inject `hyper-input-validator` as a dependecy in your angular module. Like this:
 
 ```
 angular.module("hyperCoolApp", ['hyper-input-validator']);
