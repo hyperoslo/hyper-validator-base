@@ -26,7 +26,7 @@ And now you should be all good.
 
 ## Modules
 
-Now you are ready to install the individual input validators. At the moment there is 1 you can add:
+Now you are ready to install the individual input validators. At the moment there is one you can add:
 - [float validator]
 
 [float validator]: https://github.com/hyperoslo/hyper-validator-float
