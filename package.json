@@ -1,6 +1,6 @@
 {
   "name": "hyper-validator-base",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Enables validation for inputs in conjunction with hyper-validator modules.",
   "files": [ "dist/", "LICENSE.md", "README.md" ],
   "main": "dist/hyper-validator-base.js",
